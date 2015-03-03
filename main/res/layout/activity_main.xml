@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/face_first"-->
+        <!--/>-->
+
+    <!--<com.example.anzhuo.studiodemo.view.FaceImageView-->
+        <!--android:id="@+id/faceimg"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:text="使用静默安装注意：\n
+        1、不能使用私有目录缓存apk文件\n
+        2、没有授权的情况下和一般安装一样 会出现安装界面\n
+        3、只有授权了才能实现静默安装\n
+        "
+        />
+</LinearLayout>
